@@ -1,0 +1,23 @@
+{
+    "name": "warmans/hdfs-fetch",
+    "type": "library",
+    "description": "Simple library for fetching files from HDFS",
+    "keywords": ["hadoop", "hdfs"],
+    "homepage": "https://github.com/warmans/hdfs-fetch",
+    "authors": [
+        {
+            "name": "Stefan Warman",
+            "email": "stefan.warman@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/warmans/hdfs-fetch"
+    },
+    "require": {
+        "php": ">=5.3.0",
+		"nategood/commando": "*"
+    },
+    "autoload": {
+        "psr-4": { "Hf\\": "src/" }
+    }
+}
